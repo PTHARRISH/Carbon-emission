@@ -1,0 +1,185 @@
+<!--author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+{% extends 'management_admin_Template/admin_homepage.html' %}
+{% load static %}
+{% block content %}
+<html>
+
+<head>
+<style>
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+</style>
+<title>Library Membership Form A Flat Responsive Widget Template :: w3layouts</title>
+<!-- meta_tags-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Library Membership form A Flat Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar,0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Meta_tag_Keywords-->
+<!--css_files-->
+	<link rel="stylesheet" href="{% static 'emission_check_homepage/css/jquery-ui.css'%}"/>
+	<link href="{% static 'emission_check_homepage/css/style.css'%}" rel="stylesheet" type="text/css" media="all"/><!--stylesheet-->
+	<link rel="stylesheet" href="{% static 'emission_check_homepage/css/font-awesome.css'%}"><!--font_wesome_icons-->
+<!--	<link href="//fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">&lt;!&ndash;online_fonts&ndash;&gt;-->
+<!--	<link href="//fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">&lt;!&ndash;online_fonts&ndash;&gt;-->
+<!--//css_files-->
+</head>
+<body>
+<script>
+{% for m in messages %}
+      alert('{{ m }}');
+{% endfor %}
+   </script>
+<div class="w3l-head">
+<!--<h1>DATASET</h1>-->
+</div>
+     <center><h1 style="color:black;">ADMIN EMISSION CALCULATION</h1></center>
+
+<div class="w3ls-form" style="margin-top:40px;" >
+<form action="/admincalcu_save/" method="post">
+				{% csrf_token %}
+		<div class="w3l-last-grid1" style="margin-left:90px;  width:150%; ">
+			<div class="w3l-grid1">
+<!--				<label class="text"><h1>TRAINED DATA</h1></label>-->
+				<div class="w3l-div" style="color:white;" ><label>CLIENT TYPE</label>
+					<select class="w3l-div"  style="color:white;" name="Name_user">
+						<option value="SELECT"></option>
+  						<option value="industry">industry</option>
+  						<option value="Home">Home</option>
+<!--  						<option value="mercedes">Mercedes</option>-->
+<!--  						<option value="audi">Audi</option>-->
+						</select>
+<!--					<input style="color:white;" type="text" name="Name_user" placeholder="TYPE OF CLIENT" required=""/>-->
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="petrol" placeholder=" petrol LITRES" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="diesel" placeholder=" diesel LITRES" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="gas" placeholder=" gas KILOGRAM" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="taxi" placeholder=" taxi KILOMETER" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="localbus" placeholder=" localbus KILOMETER" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="train" placeholder=" train KILOMETER" required=""/>
+				</div><div class="w3l-div" >
+					<input type="text" name="lpg_cyclinder" placeholder=" lpg_cyclinder KILOGRAM" required=""/>
+				</div>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="electricity" placeholder="KWH" required=""/>
+				</div>
+			</div>
+
+			</div>
+
+		<div class="w3l-right-grid1">
+		<div class="w3l-grid1">
+		</div>
+			<div class="w3l-grid2">
+
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="w3ls-submit">
+            <button class="button-3" role="button" type="submit"  value="SUBMIT">Submit</button>
+			<button class="button-3" role="button" style="color:white;"><a href="/admin_homepage/">home</a></button>
+
+		</div>
+
+
+</form>
+</div>
+<footer><a href="http://w3layouts.com/"> CARBON EMISSION PER USER</a></footer>
+
+<!-- Default-JavaScript --> <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Calendar -->
+<script src="{% static 'emission_check_homepage/js/jquery-ui.js'%}"></script>
+	<script>
+		$(function() {
+		$( "#datepicker,#datepicker1" ).datepicker();
+		});
+	</script>
+
+<!-- //Calendar -->
+</body>
+
+</html>
+{% endblock %}
+<!-- HTML !-->
+<!--<button class="button-3" role="button">Button 3</button>-->

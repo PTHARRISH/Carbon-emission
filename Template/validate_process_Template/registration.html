@@ -1,0 +1,69 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+{% load static %}
+
+<!-- Head -->
+
+<head>
+
+    <title>Universe Signin Form Flat Responsive Widget Template :: W3layouts</title>
+
+    <!-- Meta-Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="{% static 'login_index/css/style.css' %}" type="text/css" media="all">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+
+<body>
+
+    <section class="main">
+        <div class="logo text-center">
+            <h1> <a href="index.html">REGISTER  Form</a></h1>
+        </div>
+        <div class="content-w3ls text-center">
+            <img src="{% static 'login_index/images/admin.png' %}" alt="" class="img-responsive">
+            <form action="/registration_validate_process/" method="post">
+                {% csrf_token %}
+                <div class="wthree-field">
+                    <input name="Name" id="text1" type="text" value="" placeholder="name" required>
+                </div>
+                 <div class="wthree-field">
+                    <input name="Email" id="text2" type="email" value="" placeholder="email" required>
+                </div>
+                 <div class="wthree-field">
+                    <input name="Phone_number" id="text3" type="text" value="" placeholder="phone number" required>
+                </div>
+                 <div class="wthree-field">
+                    <input name="Password" id="text4" type="Password" value="" placeholder="password" required>
+                </div>
+                <div class="wthree-field">
+                    <input name="Address" id="myInput" type="text" placeholder="address">
+                </div>
+                <div class="wthree-field">
+                    <button type="submit" class="btn">REGISTER</button>
+                </div>
+                <div class="login-bottom">
+                    <a href="/data_home_index/" class="">BACK TO HOME</a>
+                </div>
+            </form>
+        </div>
+        <div class="copyright">
+        </div>
+    </section>
+
+</body>
+<!-- //Body -->
+
+</html>

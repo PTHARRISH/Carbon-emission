@@ -1,0 +1,138 @@
+<!--author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+{% extends 'emission_checker_industry_Template/emission_check_industry_home.html' %}
+{% load static %}
+{% block content %}
+<head>
+	<style>
+	::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+
+/* CSS */
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+	</style>
+<title>Library Membership Form A Flat Responsive Widget Template :: w3layouts</title>
+<!-- meta_tags-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Library Membership form A Flat Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Meta_tag_Keywords-->
+<!--css_files-->
+	<link rel="stylesheet" href="{% static 'emission_checker_industry_homepage/css/jquery-ui.css'%}"/>
+	<link href="{% static 'emission_checker_industry_homepage/css/style.css'%}" rel="stylesheet" type="text/css" media="all"/><!--stylesheet-->
+	<link rel="stylesheet" href="{% static 'emission_check_homepage/css/font-awesome.css'%}"><!--font_wesome_icons-->
+	<link href="//fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet"><!--online_fonts-->
+	<link href="//fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet"><!--online_fonts-->
+<!--//css_files-->
+</head>
+<body>
+<script>
+{% for m in messages %}
+      alert('{{ m }}');
+{% endfor %}
+   </script>
+<div class="w3l-head">
+<h1>CALCULATOR FOR INDUSTRY EMISSION</h1>
+</div>
+<div class="w3ls-form" style="height:600px;">
+<form action="/emission_check_industry/" method="post">
+				{% csrf_token %}
+
+		<div class="w3l-last-grid1" style="table-width:100px;">
+			<div class="w3l-grid1" style="width:80%">
+				<label class="text"><h1> USING MATERIAL</h1></label>
+
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="petrol" placeholder="petrol usage" required=""/>
+				</div>
+				<br>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="diesel" placeholder="diesel usage" required=""/>
+				</div>
+				<br>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="gas" placeholder="lpg usage" required=""/>
+				</div>
+				<br>
+				<div class="w3l-div" style="color:white;">
+					<input type="text" name="electricity" placeholder="KWH usage" required=""/>
+				</div>
+
+			</div>
+
+		<div class="w3l-right-grid1">
+		<div class="w3l-grid1">
+		</div>
+			<div class="w3l-grid2">
+
+			</div>
+		</div>
+		<div class="clear"></div>
+		<center><div class="w3ls-submit">
+			<center><button  type="submit"  value="SUBMIT" class="button-10" role="button" >Submit</button></center>
+			<br>
+			<center><button  type="submit"  value="SUBMIT" class="button-10" role="button"><a style="color:white;" href="/home_industry/">HOME</a></button></center>
+		</div></center>
+
+<!--				<div class="clear"></div>-->
+<!--		<div class="w3ls-submit">-->
+<!--				 type="submit"  value="Submit">Submit-->
+<!--		</div>-->
+
+</form>
+</div>
+
+<!-- Default-JavaScript --> <script type="text/javascript" src="{% static 'emission_checker_industry_homepage/js/jquery-2.1.4.min.js'%}"></script>
+
+<!-- Calendar -->
+<script src="{% static 'emission_checker_industry_homepage/js/jquery-ui.js'%}"></script>
+	<script>
+		$(function() {
+		$( "#datepicker,#datepicker1" ).datepicker();
+		});
+	</script>
+<!-- //Calendar -->
+</body>
+{% endblock %}
+</html>
+
+
+<!-- HTML !-->

@@ -1,0 +1,527 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+
+<title> Emission control</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Construct Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!--<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);-->
+<!--		function hideURLbar(){ window.scrollTo(0,1); } </script>-->
+<!-- //custom-theme -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- stylesheet -->
+<link href="{% static 'indexsum/css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'indexsum/css/chocolat.css' %}"	type="text/css" media="all">
+<link href="{% static 'indexsum/css/style.css' %} " rel="stylesheet" type="text/css" media="all" />
+<!-- //stylesheet -->
+<!-- online fonts-->
+<link href="//fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //online fonts -->
+<!-- font-awesome-icons -->
+<!--<link href="{% static ' indexsum/css/font-awesome.css' %}" type="text/css" rel="stylesheet">-->
+<!-- //font-awesome-icons -->
+</head>
+<body style="background-image: url('/static/img/home.jpg');">
+<!-- header --><script>
+{% for m in messages %}
+      alert('{{ m }}');
+{% endfor %}
+   </script>
+<div class="header-w3layouts">
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Lorem</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+<!--				<h1>construct</h1>-->
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li><a class="" href="/">HOME</a></li>
+					<li><a class="" href="/login/">EMISSION HOME</a></li>
+					<li><a class="" href="/e1_login/">EMISSION INDUSTRY</a></li>
+
+					<li><a class="" href="/data_index/">DATA ANALYST</a></li>
+<!--					<li><a class="" href="/v_login/">VALIDATE.DATA</a></li>-->
+<!--					<li><a class="" href="/c_login/">COMMUNITY</a></li>-->
+					<li><a class="" href="/m_login/">ADMIN</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+</div>
+<!-- //header -->
+<div class="header jarallax" id="home">
+		<div class="w3_banner">
+		<div class="container">
+			<div class="slider">
+				<div class="callbacks_container">
+				   <ul class="rslides callbacks callbacks1" id="slider4">
+						<li>
+<!--							<div class="banner_text_w3layouts">-->
+<!--								<div class="banner-text-w3l">-->
+<!--									<h1 style="color:white;">CO2</h1>-->
+<!--									<h3>CARBON EMISSION</h3>-->
+<!--									<p>Nam imperdiet tempus dasd lus nec</p>-->
+								</div>
+							</div>
+							</li>
+<!--						<li>	-->
+<!--							<div class="banner_text_w3layouts">-->
+<!--								<div class="banner-text-w3l">-->
+<!--									<h4>elsdasd lus nec</h4>	-->
+<!--									<h3>elsdasd lus nec enim temp</h3>-->
+<!--									<p>telsdasd lus nec enim tempu  lus ne</p>-->
+<!--								</div>	-->
+<!--							</div>-->
+<!--						</li>-->
+<!--						<li>	-->
+<!--							<div class="banner_text_w3layouts">-->
+<!--								<div class="banner-text-w3l">-->
+<!--									<h4>elsdasd lus nec</h4>	-->
+<!--									<h3>tesdasd lus nec enim temp</h3>-->
+<!--									<p>Nam tellus nec enim tempus dasd</p>-->
+<!--								</div>	-->
+<!--							</div>-->
+<!--						</li>-->
+
+					</ul>
+				</div>
+			  <script src="{% static 'indexsum/js/responsiveslides.min.js' %}"></script>
+			  <script>
+				// You can also use "$(window).load(function() {"
+				$(function () {
+				  // Slideshow 4
+				  $("#slider4").responsiveSlides({
+					auto: false,
+					pager:true,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					  $('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+					  $('.events').append("<li>after event fired.</li>");
+					}
+				  });
+
+				});
+			 </script>
+		   </div>
+		</div>
+	</div>
+	</div>
+<!-- //banner -->
+<!-- agile-about -->
+<!--	<div class="jarallax agile-about w3ls-section" id="about">-->
+<!--		<div class="container">-->
+<!--			<div class="agile-about-grids">-->
+<!--				<div class="col-md-6 col-sm-6 agile-about-grid agile-about-grid1 ">-->
+<!--					<h2 class="h3-w3l"><span class="head-w3l">Ab</span>out us</h2>-->
+<!--					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>-->
+<!--					<p>sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>-->
+<!--				</div>-->
+
+<!--				<div class="col-md-6 col-sm-6 agile-about-grid agile-about-grid2 ">-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+
+<!--			<div class="about-info-grids">-->
+<!--				<div class="col-md-4 col-sm-4 about-info about-info1">-->
+<!--					<i class="fa fa-info-circle agile-sicon" aria-hidden="true"></i>-->
+<!--					<h4>how we<span class="head-w3l"> work</span></h4>-->
+<!--					<div class="h4-underline"></div>-->
+<!--					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>-->
+<!--					</div>-->
+<!--				<div class="col-md-4 col-sm-4 about-info about-info2">-->
+<!--					<i class="fa fa-question-circle agile-sicon" aria-hidden="true"></i>-->
+<!--					<h4>what we <span class="head-w3l"> do</span></h4>-->
+<!--					<div class="h4-underline"></div>-->
+<!--					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>-->
+<!--					</div>-->
+<!--				<div class="col-md-4 col-sm-4 about-info about-info3">-->
+<!--					<i class="fa fa-registered agile-sicon" aria-hidden="true"></i>-->
+<!--					<h4>why choose<span class="head-w3l"> us</span></h4>-->
+<!--					<div class="h4-underline"></div>-->
+<!--					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>-->
+<!--					</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+<!--			-->
+<!--		</div>-->
+<!--	</div>-->
+	<!-- //agile-about -->
+<!--<div class="jarallax agileits-section w3ls-section text-center">-->
+<!--	<div class="container">-->
+<!--		<h3 class="h3-w3l"><span class="head-w3l">cons</span>ectetur <span class="head-w3l">adip</span>isicing <span class="head-w3l">el</span>it</h3>-->
+<!--		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore sed do.</p>-->
+<!--		<p>sed do eiusmod tempor incididunt ut labore sed do.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore sed do.</p>-->
+<!--		<div class="button">-->
+<!--			<a href="#" data-toggle="modal" data-target="#myModal">Get More<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</div>	-->
+	<!-- Modal -->
+<!--	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >-->
+<!--		<div class="modal-dialog">-->
+<!--			&lt;!&ndash; Modal content&ndash;&gt;-->
+<!--				<div class="modal-content">-->
+<!--					<div class="modal-header">-->
+<!--						<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!--						<h3>Construct</h3>-->
+<!--						<img src="{% static 'indexsum/images/a1.jpg' %}" alt="construct" class="img-responsive"/>-->
+<!--						<span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium, totam rem aperiamconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--		</div>-->
+<!--	</div>-->
+	<!-- //Modal -->
+
+<!-- Portfolio -->
+<!--	<div class="jarallax w3portfolioaits w3ls-section" id="port">-->
+<!--		<div class="container">-->
+<!--			<h3 class="h3-w3l">Portfo<span class="head-w3l">lio</span></h3>-->
+<!--			<div class="w3portfolioaits-items">-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-1">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g1.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g1.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-2">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g2.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g2.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-3">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g3.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g3.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-4">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g4.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g4.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-5">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g5.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g5.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-6">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g6.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g6.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-7">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g7.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g7.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-8">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g8.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g8.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 w3portfolioaits-item w3portfolioaits-item-9">-->
+<!--					<a class="example-image-link" href="{% static 'indexsum/images/g9.jpg' %}" data-lightbox="example-set" data-title="">-->
+<!--						<div class="agileits-grid">-->
+<!--							<figure class="effect-apollo">-->
+<!--								<img src="{% static 'indexsum/images/g9.jpg' %}" alt="Asset"/>-->
+<!--									<figcaption></figcaption>-->
+<!--							</figure>-->
+<!--						</div>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+
+<!--		</div>-->
+<!--	</div>-->
+	<!-- //Portfolio -->
+<!-- services -->
+<!--<div class="jarallax w3ls-services w3ls-section" id="services">-->
+<!--	<div class="container">-->
+<!--		<h3 class="h3-w3l"><span class="head-w3l">ser</span>vices</h3>-->
+<!--		<div class="grid">-->
+<!--			<figure class="col-md-3 col-xs-6 w3l-service-hover">-->
+<!--				<img src="{% static 'indexsum/images/s2.jpg' %}" alt="t1"/>-->
+<!--				<figcaption>-->
+<!--					<h4>lorem ipsum</h4>-->
+<!--					<p>Bubba likes to appear out of thin air.</p>-->
+<!--				</figcaption>			-->
+<!--			</figure>-->
+<!--			<figure class="col-md-3 col-xs-6  w3l-service-hover s2">-->
+<!--				<img src="{% static 'indexsum/images/s3.jpg' %}" alt="t2"/>-->
+<!--				<figcaption>-->
+<!--					<h4>lorem ipsum</h4>-->
+<!--					<p>Bubba likes to appear out of thin air.</p>-->
+<!--				</figcaption>			-->
+<!--			</figure>-->
+<!--			<figure class="col-md-3 col-xs-6 w3l-service-hover s3">-->
+<!--				<img src="{% static 'indexsum/images/s4.jpg' %}" alt="t1"/>-->
+<!--				<figcaption>-->
+<!--					<h4>lorem ipsum</h4>-->
+<!--					<p>Bubba likes to appear out of thin air.</p>-->
+<!--				</figcaption>			-->
+<!--			</figure>-->
+<!--			<figure class="col-md-3 col-xs-6 w3l-service-hover s4">-->
+<!--				<img src="{% static 'indexsum/images/s5.jpg' %}" alt="t3"/>-->
+<!--				<figcaption>-->
+<!--					<h4>lorem ipsum</h4>-->
+<!--					<p>Bubba likes to appear out of thin air.</p>-->
+<!--				</figcaption>			-->
+<!--			</figure>-->
+<!--		</div>-->
+<!--			-->
+<!--	</div>-->
+<!--</div>	-->
+<!-- //services -->
+<!-- team -->
+<!--<div class="jarallax agileits-team w3ls-section" id="team">-->
+<!--	<div class="container">-->
+<!--		<h3 class="h3-w3l">te<span class="head-w3l">am</span></h3>-->
+<!--			<div class="carousel" data-ride="carousel" id="quote-carousel">-->
+<!--				&lt;!&ndash; Bottom Carousel Indicators &ndash;&gt;-->
+<!--				<ol class="carousel-indicators">-->
+<!--					<li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="{% static 'indexsum/images/t4.jpg' %}" alt="">-->
+<!--					</li>-->
+<!--					<li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="{% static 'indexsum/images/t5.jpg' %}" alt="">-->
+<!--					</li>-->
+<!--					<li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="{% static 'indexsum/images/t6.jpg' %}" alt="">-->
+<!--					</li>-->
+<!--				</ol>-->
+
+<!--				&lt;!&ndash; Carousel Slides / Quotes &ndash;&gt;-->
+<!--				<div class="carousel-inner">-->
+<!--					&lt;!&ndash; Quote 1 &ndash;&gt;-->
+<!--					<div class="item active">-->
+<!--						<blockquote>-->
+<!--							<div class="row">-->
+<!--								<div class="col-sm-8 col-sm-offset-2">-->
+<!--									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+<!--									<h5 class="testi-title">Jordan</h5><span class="test-info">Designer</span>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</blockquote>-->
+<!--					</div>-->
+<!--					&lt;!&ndash; Quote 2 &ndash;&gt;-->
+<!--					<div class="item">-->
+<!--						<blockquote>-->
+<!--							<div class="row">-->
+<!--								<div class="col-sm-8 col-sm-offset-2">-->
+<!--									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+<!--									<h5 class="testi-title">Kennedy</h5><span class="test-info">Planner</span>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</blockquote>-->
+<!--					</div>-->
+<!--					&lt;!&ndash; Quote 3 &ndash;&gt;-->
+<!--					<div class="item">-->
+<!--						<blockquote>-->
+<!--							<div class="row">-->
+<!--								<div class="col-sm-8 col-sm-offset-2">-->
+<!--									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+<!--									<h5 class="testi-title">James</h5><span class="test-info">Engineer</span>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</blockquote>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--		    </div>-->
+<!--	</div>-->
+<!--</div>-->
+<!-- team -->
+<!-- contact -->
+<!--<div class="jarallax contact-w3-agileits w3ls-section" id="contact">-->
+<!--	<div class="container">-->
+<!--		<div class="contact-main">-->
+<!--			<div class="col-md-6 col-sm-6 col-xs-6 contact-left-w3ls">-->
+<!--				<h3 class="h3-w3l"> <span class="head-w3l">con</span>tact <span class="head-w3l">in</span>fo</h3>-->
+<!--				<div class="mail contact-grid-agileinfo c1">-->
+<!--					<div class="contact-icon-wthree">-->
+<!--						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>-->
+<!--					</div>-->
+<!--					<div class="contact-text-agileinfo">-->
+<!--						<h4>Mail us</h4>-->
+<!--						<p><a href="mailto:info@example.com">info@example.com</a></p>-->
+<!--					</div>-->
+<!--					<div class="clearfix"></div>-->
+<!--				</div>-->
+<!--				<div class="call contact-grid-agileinfo c2">-->
+<!--					<div class="contact-icon-wthree">-->
+<!--						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>-->
+<!--					</div>-->
+<!--					<div class="contact-text-agileinfo">-->
+<!--						<h4>Call us</h4>-->
+<!--						<p>+18044261149</p>-->
+<!--					</div>				-->
+<!--					<div class="clearfix"></div>-->
+<!--				</div>	-->
+<!--				<div class="visit contact-grid-agileinfo">-->
+<!--					<div class="contact-icon-wthree">-->
+<!--						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>-->
+<!--					</div>-->
+<!--					<div class="contact-text-agileinfo">-->
+<!--						<h4>Visit us</h4>-->
+<!--						<p>sed do eiusmod vally</p><p>New york,U.S.A</p>-->
+<!--					</div>-->
+<!--					<div class="clearfix"></div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<div class="col-md-6 col-sm-6 col-xs-6 contact-right-w3l">-->
+<!--				<h3 class="h3-w3l"> <span class="head-w3l">o</span>n the  <span class="head-w3l">ma</span>p</h3>-->
+<!--				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387145.86654334463!2d-74.25818682528057!3d40.70531100753592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1492489108677" allowfullscreen></iframe>-->
+<!--			</div>-->
+<!--			<div class="clearfix"></div>			-->
+<!--		</div>			-->
+<!--	</div>-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="contact-form-w3l  w3ls-section">&ndash;&gt;-->
+<!--&lt;!&ndash;	<div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;		<h3 class="h3-w3l"><span class="head-w3l">wr</span>ite a <span class="head-w3l">mess</span>age</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;		<form action="#" method="post">&ndash;&gt;-->
+<!--&lt;!&ndash;			<div class="col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;				<input type="text" class="name" name="name" placeholder="First Name" required="">&ndash;&gt;-->
+<!--&lt;!&ndash;				<input type="text" class="name" name="name" placeholder="Phone" required="">&ndash;&gt;-->
+<!--&lt;!&ndash;				<input type="email" class="name" name="name" placeholder="Email" required="">&ndash;&gt;-->
+<!--&lt;!&ndash;			</div>	&ndash;&gt;-->
+<!--&lt;!&ndash;			<div class="col-sm-6">&ndash;&gt;-->
+<!--&lt;!&ndash;				<textarea placeholder="Your Message" required=""></textarea>&ndash;&gt;-->
+<!--&lt;!&ndash;				<input type="submit" value="submit">&ndash;&gt;-->
+<!--&lt;!&ndash;			</div>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;		</form>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;	</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>	&ndash;&gt;-->
+<!--&lt;!&ndash; //contact &ndash;&gt; 		-->
+<!--&lt;!&ndash; footer&ndash;&gt;-->
+<!--&lt;!&ndash;<div class="agile-w3layouts-footer text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;	<div class="social">&ndash;&gt;-->
+<!--&lt;!&ndash;		<h6><span class="head-w3l">fo</span>llow <span class="head-w3l">us</span></h6>&ndash;&gt;-->
+<!--&lt;!&ndash;		<ul class="social-icons agileinfo">&ndash;&gt;-->
+<!--&lt;!&ndash;			<li><a href="#" ><i class="fa icon1 fa-facebook-square" aria-hidden="true"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;			<li><a href="#"><i class="fa icon2 fa-twitter-square" aria-hidden="true"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;			<li><a href="#" ><i class="fa icon3 fa-google-plus-square" aria-hidden="true"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;			<li><a href="#"><i class="fa icon4 fa-instagram" aria-hidden="true"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;			<li><a href="#"><i class="fa icon5 fa-youtube-square" aria-hidden="true"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;		</ul>&ndash;&gt;-->
+<!--&lt;!&ndash;	</div>	&ndash;&gt;-->
+<!--&lt;!&ndash;	<p>&copy; 2017 Construct. All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts </a></p>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>	&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash; //footer &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;	&lt;!&ndash; Popup-Box-JavaScript &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<script src="{% static 'indexsum/js/jquery.chocolat.js' %}"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;			<script type="text/javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;				$(function() {&ndash;&gt;-->
+<!--&lt;!&ndash;					$('.w3portfolioaits-item a').Chocolat();&ndash;&gt;-->
+<!--&lt;!&ndash;				});&ndash;&gt;-->
+<!--&lt;!&ndash;		</script>&ndash;&gt;-->
+<!--&lt;!&ndash;		&lt;!&ndash; //Popup-Box-JavaScript &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<script src="{% static 'indexsum/js/jarallax.js' %}"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;		<script src="{% static 'indexsum/js/SmoothScroll.min.js' %}"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;		<script type="text/javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;			/* init Jarallax */&ndash;&gt;-->
+<!--&lt;!&ndash;			$('.jarallax').jarallax({&ndash;&gt;-->
+<!--&lt;!&ndash;				speed: 0.5,&ndash;&gt;-->
+<!--&lt;!&ndash;				imgWidth: 1366,&ndash;&gt;-->
+<!--&lt;!&ndash;				imgHeight: 768&ndash;&gt;-->
+<!--&lt;!&ndash;			})&ndash;&gt;-->
+<!--&lt;!&ndash;		</script>&ndash;&gt;-->
+<!--		&lt;!&ndash; here starts scrolling icon &ndash;&gt;-->
+<!--&lt;!&ndash;		<script type="text/javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;			$(document).ready(function() {&ndash;&gt;-->
+<!--&lt;!&ndash;				/*&ndash;&gt;-->
+<!--&lt;!&ndash;					var defaults = {&ndash;&gt;-->
+<!--&lt;!&ndash;					containerID: 'toTop', // fading element id&ndash;&gt;-->
+<!--&lt;!&ndash;					containerHoverID: 'toTopHover', // fading element hover id&ndash;&gt;-->
+<!--&lt;!&ndash;					scrollSpeed: 1200,&ndash;&gt;-->
+<!--&lt;!&ndash;					easingType: 'linear' &ndash;&gt;-->
+<!--&lt;!&ndash;					};&ndash;&gt;-->
+<!--&lt;!&ndash;				*/&ndash;&gt;-->
+<!--&lt;!&ndash;										&ndash;&gt;-->
+<!--&lt;!&ndash;				$().UItoTop({ easingType: 'easeOutQuart' });&ndash;&gt;-->
+<!--&lt;!&ndash;									&ndash;&gt;-->
+<!--&lt;!&ndash;				});&ndash;&gt;-->
+<!--&lt;!&ndash;		</script>&ndash;&gt;-->
+<!--		-->
+<!--		&lt;!&ndash; start-smooth-scrolling &ndash;&gt;-->
+<!--&lt;!&ndash;		<script type="text/javascript" src="{% static 'indexsum/js/move-top.js' %}"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;		<script type="text/javascript" src="{% static 'indexsum/js/easing.js' %}"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;		<script type="text/javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;			jQuery(document).ready(function($) {&ndash;&gt;-->
+<!--&lt;!&ndash;				$(".scroll").click(function(event){		&ndash;&gt;-->
+<!--&lt;!&ndash;					event.preventDefault();&ndash;&gt;-->
+<!--&lt;!&ndash;					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);&ndash;&gt;-->
+<!--&lt;!&ndash;				});&ndash;&gt;-->
+<!--&lt;!&ndash;			});&ndash;&gt;-->
+<!--&lt;!&ndash;		</script>&ndash;&gt;-->
+<!--		&lt;!&ndash; /ends-smooth-scrolling &ndash;&gt;-->
+<!--	&lt;!&ndash; //here ends scrolling icon &ndash;&gt;-->
+
+
+<!--		-->
+</body>
+</html>
